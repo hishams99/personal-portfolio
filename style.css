@@ -1,0 +1,68 @@
+.nav{
+  font: 20px Arial;
+  margin: 30px ;
+  text-align: right;
+
+  
+}
+.welcome{
+  text-align:center;
+}
+body{
+  background-color: hsl(216, 100%, 70%);
+}
+.welcome-section{
+  font: 16px verdana;
+  color: #1a001a;
+  background: #99ccff;
+  text-transform: uppercase;
+  height: 100px;
+  padding-top: 10px;
+
+ 
+}
+
+
+.nav li{
+   list-style-type:none;
+  display:inline;
+  margin: 10px;
+ 
+ 
+  
+  
+}
+a:link {
+  text-decoration: none;
+  color: ;
+}
+.welcome-section p{
+  color: #ffffcc;
+  font: bold 20px Verdana;
+ 
+}
+.projects-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-column-gap: 30%;
+}
+
+.buttons{
+  word-spacing: 40px;
+  padding-bottom: 20px;
+  
+}
+
+  h2{
+  color:white;
+   font: bold ;
+   font: italic bold 40px Georgia, Verdana;
+}
+
+p{
+  color:white;
+}
+.project-title{
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
